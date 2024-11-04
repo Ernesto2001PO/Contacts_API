@@ -1,0 +1,14 @@
+<!-- res/values-night/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base de la aplicación para el modo oscuro -->
+    <style name="Base.Theme.ContactsAPI" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_700</item>
+    </style>
+
+    <!-- Tema principal de la aplicación que hereda del tema base -->
+    <style name="Theme.Contacts_API" parent="Base.Theme.ContactsAPI" />
+</resources>
+
